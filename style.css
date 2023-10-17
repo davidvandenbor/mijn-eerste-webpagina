@@ -1,0 +1,34 @@
+body {
+	font-size: 30px;
+	/* display: grid;
+	justify-content: center; */
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.cirkelfoto {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding: 100% 0 0;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 10px dashed red;
+}
+
+.cirkelfoto img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
